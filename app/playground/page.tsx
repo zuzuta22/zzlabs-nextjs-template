@@ -1,17 +1,12 @@
-import LayoutSectionInner from "@/_src/components/layouts/layout-secition-inner/layout-section-inner";
-import LayoutSection from "@/_src/components/layouts/layout-section/layout-section";
-import ButtonBase from "@/_src/components/ui/buttons/button-base/button-base";
+import PlaygroundButtons from "./_components/buttons/playground-buttons/playground-buttons";
+import DynamicTitle from "@/_src/components/ui/titles/dynamic-title/dynamic-title";
 
 const Playground = () => {
   return (
-    <LayoutSection>
-      <LayoutSectionInner>
-        <ButtonBase
-          text={'Button'}
-          type={'rectangle'}
-        />
-      </LayoutSectionInner>
-    </LayoutSection>
+    <>
+      <DynamicTitle tag={"h1"} text={"Playground"} />
+      <PlaygroundButtons />
+    </>
   )
 }
 
