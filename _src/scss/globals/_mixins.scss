@@ -1,3 +1,6 @@
+@use 'sass:math';
+@use './variables' as var;
+
 // Absolute center alignment
 @mixin center-pos {
   position: absolute;
@@ -37,4 +40,19 @@
     clear: both;
     display: block;
   }
+}
+
+
+// media queries
+@mixin media($breakpoint) {
+  @media #{map-get(var.$breakpoints, $breakpoint)} {
+      @content;
+  }
+}
+
+@mixin clamp_fontsize($fs_min, $width_small, $width_large, $fs_max) {
+  $preferred_vw_base: math.div(($fs_max - $fs_min), ($width_large - $width_small));
+  $preferred_vw: ($preferred_vw_base * 100) * 1vw;
+  $preferred_rem: ($width_small * -1 * $preferred_vw_base + $fs_min) * .1rem;
+  font-size: clamp($fs_min * .1rem, $preferred_rem + $preferred_vw, $fs_max * .1rem);
 }
