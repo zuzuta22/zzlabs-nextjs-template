@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 // scss
-import '../scss/styles.scss';
+import '../_src/scss/styles.scss';
 
 export const metadata: Metadata = {
   title: "zzlabs.net - Next.js Template Project",

@@ -1,0 +1,60 @@
+// font
+// @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url(//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+// fonts
+// $noto-sans: "Noto Sans JP", sans-serif;
+$robot: "Roboto", sans-serif;
+
+// colour
+$c-base: #222;
+$c-blue: #2359A1;
+$c-white: #fff;
+
+// background-colour
+$c-background-base: $c-white;
+$c-background-invert: $c-blue;
+
+// border-colour
+$c-border-base: $c-blue;
+
+// font-colour 
+$c-font-color-base: $c-base;
+$c-font-color-accent: $c-blue;
+$c-font-color-invert: $c-white; 
+
+// ================
+// margin (PX)
+// ================
+$marginPx__XS: 10px;
+$marginPx__SM: 15px;
+$marginPx__MD: 30px;
+$marginPx__LG: 50px;
+$marginPx__XL: 100px;
+
+// ================
+// margin (vw)
+// ================
+$marginVw__XS: 1vw;
+$marginVw__SM: 3vw;
+$marginVw__MD: 5vw;
+$marginVw__LG: 10vw;
+$marginVw__XL: 15vw;
+
+// ================
+// padding (PX)
+// ================
+$paddingPx__XS: 10px;
+$paddingPx__SM: 15px;
+$paddingPx__MD: 30px;
+$paddingPx__LG: 50px;
+$paddingPx__XL: 100px;
+
+// ================
+// padding (vw)
+// ================
+$paddingVw__XS: 1vw;
+$paddingVw__SM: 3vw;
+$paddingVw__MD: 5vw;
+$paddingVw__LG: 10vw;
+$paddingVw__XL: 15vw;

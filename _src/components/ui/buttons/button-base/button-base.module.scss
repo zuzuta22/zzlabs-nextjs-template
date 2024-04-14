@@ -1,0 +1,22 @@
+@use "../../../../scss/globals/" as g;
+
+.u_button_base {
+  border: 1px solid g.$c-border-base;
+  color: g.$c-font-color-accent;
+  background-color: g.$c-background-base;
+  color: g.$c-font-color-accent;
+  padding: g.$paddingPx__XS g.$paddingPx__MD;
+  transition: all .5s;
+
+  &:hover {
+    background-color: g.$c-background-invert;
+    color: g.$c-font-color-invert;
+  }
+
+  &__round {
+    border-radius: 30px;
+  }
+  &__rectangle {
+    border-radius: 0;
+  }
+}
