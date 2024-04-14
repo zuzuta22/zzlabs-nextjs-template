@@ -1,0 +1,38 @@
+@use '../globals/' as g;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+  border-style: none;
+}
+
+a {
+  color: g.$c-blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  touch-action: manipulation;
+}
+
+body {
+  color: g.$c-base;
+  font-family: g.$robot;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}

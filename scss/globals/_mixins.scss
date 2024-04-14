@@ -1,0 +1,40 @@
+// Absolute center alignment
+@mixin center-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// flex
+@mixin flex {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@mixin flex-start {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+// clearfix
+@mixin clearfix() {
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
