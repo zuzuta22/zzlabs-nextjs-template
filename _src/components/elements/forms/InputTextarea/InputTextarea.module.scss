@@ -1,0 +1,21 @@
+@use '../../../../scss/globals/' as g;
+
+.input_textarea {
+  position: relative;
+
+  &__field {
+    border: 1px solid g.$c-base;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    min-height: 13rem;
+
+    &::placeholder {
+      color: transparent;
+    }
+
+    &__active {
+      border: 2px solid g.$c-blue;
+    }
+  }
+}

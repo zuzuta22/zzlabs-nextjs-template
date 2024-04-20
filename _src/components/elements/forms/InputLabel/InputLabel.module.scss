@@ -1,0 +1,18 @@
+@use '../../../../scss/globals/' as g;
+
+.input_label {
+  color: g.$c-base;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  transform: translate(0, -50%);
+
+  &__active {
+    background-color: g.$c-white;
+    color: g.$c-blue;
+    padding: 0 1rem;
+    top: 0;
+    left: 1rem;
+  }
+}
