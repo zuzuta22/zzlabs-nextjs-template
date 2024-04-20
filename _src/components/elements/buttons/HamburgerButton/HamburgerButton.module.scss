@@ -1,5 +1,9 @@
 @use '../../../../scss/globals/' as g;
 
+.hamburger_wrapper {
+  background: blue;
+}
+
 .hamburger {
   background: transparent;
   display: block;
@@ -9,7 +13,7 @@
   position: fixed;
   top: 2vw;
   right: 2vw;
-  z-index: 1010;
+  z-index: 901;
 
   & > span {
     background-color: g.$c-blue;

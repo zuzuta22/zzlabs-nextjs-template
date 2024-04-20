@@ -3,7 +3,7 @@ import styles from './Header.module.scss';
 
 const Header = () => {
   return (
-    <header className={styles.l_header}>
+    <header id="header" className={styles.l_header}>
       <HeaderInner />
     </header>
   )

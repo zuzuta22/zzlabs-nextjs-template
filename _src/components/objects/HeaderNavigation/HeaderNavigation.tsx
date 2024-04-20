@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLink from '../../elements/links/NavLink/NavLink';
 import styles from './HeaderNavigation.module.scss';
 import { HeaderNavigationItemType, HeaderNavigationType } from './HeaderNavigation.types';
 
@@ -11,9 +11,10 @@ const HeaderNavigation = (props: HeaderNavigationType) => {
         <ul className={styles.header_nav}>
           {navItems.map((item:HeaderNavigationItemType, key:number) => (
             <li key={key}>
-              <Link href={item.url}>
-                {item.name}
-              </Link>
+              <NavLink 
+                linkTo={item.url}
+                linkText={item.name}
+            />
             </li>
           ))}
         </ul>

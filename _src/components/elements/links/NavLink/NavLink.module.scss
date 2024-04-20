@@ -3,5 +3,6 @@
 .nav_link {
   &:hover {
     color: g.$c-blue;
+    text-decoration: underline;
   }
 }

@@ -8,4 +8,8 @@
   & > div:not(:last-child) {
     margin-bottom: g.$marginVw__SM;
   }
+
+  & > * {
+    z-index: 10;
+  }
 }

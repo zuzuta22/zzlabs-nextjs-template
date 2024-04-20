@@ -8,8 +8,9 @@
 
 img,
 picture {
-  max-width: 100%;
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -35,4 +36,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  min-width: 375px;
+}
+
+#main {
+  margin-top: 65px;
 }

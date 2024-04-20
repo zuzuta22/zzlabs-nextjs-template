@@ -1,5 +1,6 @@
 import { LINKS } from "@/_src/constants/links";
 import { SITE_INFO } from "@/_src/constants/siteInfo";
+import BackToTopLink from "../../elements/links/BackToTopLink/BackToTopLink";
 import HamburgerNavigation from "../HamburgerNavigation/HamburgerNavigation";
 import HeaderNavigation from "../HeaderNavigation/HeaderNavigation";
 import styles from './HeaderInnter.module.scss';
@@ -10,11 +11,9 @@ const HeaderInner = () => {
       <h1>{SITE_INFO.siteTitle}</h1>
       <HeaderNavigation navItems={LINKS} />
       <HamburgerNavigation
-        linkItems={[
-          {url: "", name: "top", order: 1},
-          {url: "playground", name: "playground", order: 2, isDisplayed: true}
-        ]}
+        linkItems={LINKS}
       />
+      <BackToTopLink />
     </div>
   )
 }
