@@ -1,0 +1,26 @@
+@use '../../../scss/globals/' as g;
+
+.l_flexbox {
+  @include g.flex;
+
+  &__start {
+    @include g.flex-start;
+
+    & > * {
+      margin-right: g.$marginPx__XS;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__column {
+    flex-direction: column;
+    & > * {
+      margin-bottom: g.$marginPx__XS;
+    }
+  }
+  &__row {
+    flex-direction: row;
+  }
+}

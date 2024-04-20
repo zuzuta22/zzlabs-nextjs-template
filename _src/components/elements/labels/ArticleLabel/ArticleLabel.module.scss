@@ -1,0 +1,9 @@
+@use '../../../../scss/globals/' as g;
+
+.article_label {
+  background: g.$c-blue;
+  border-radius: 50px;
+  color: g.$c-white;
+  display: inline-block;
+  padding: 0 g.$paddingPx__SM;
+}

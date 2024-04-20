@@ -3,7 +3,6 @@ import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/Dynamic
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
 import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
 import PlaygroundButtons from "./_components/buttons/playground-buttons/playground-buttons";
-import PlaygroundLabelLinks from "./_components/links/PlaygroundLabelLinks";
 import PlaygroundTitles from "./_components/titles/playground-titles";
 
 const Playground = () => {
@@ -28,7 +27,6 @@ const Playground = () => {
       </LayoutSection>
       <PlaygroundButtons />
       <PlaygroundTitles />
-      <PlaygroundLabelLinks />
     </>
   )
 }

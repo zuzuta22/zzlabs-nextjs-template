@@ -1,0 +1,39 @@
+@use '../../../../scss/globals/' as g;
+
+.youtube_wrapper {
+  width: 100%;
+  position: relative;
+
+  & > a {
+    display: block;
+    position: relative;
+
+    & > span {
+      color: g.$c-white;
+      font-size: 1.5rem;
+      position: absolute;
+      bottom: 3%;
+      right: 3%;
+    }
+
+    & > img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  & a::after {
+    background-image: url('/images/play.png');
+    background-repeat: no-repeat;
+    content: '';
+    background-size: 100%;
+    width: 20%;
+    min-width: 150px;
+    height: 20%;
+    min-height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
