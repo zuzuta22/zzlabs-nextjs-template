@@ -1,5 +1,5 @@
-import styles from "./button-base.module.scss";
-import { ButtonBaseType } from "./button-base.types";
+import styles from "./ButtonBase.module.scss";
+import { ButtonBaseType } from "./ButtonBase.types";
 
 const ButtonBase = (props: ButtonBaseType) => {
   const {text,type} = props;

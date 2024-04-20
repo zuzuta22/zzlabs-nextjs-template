@@ -1,5 +1,5 @@
-import { LayoutSectionType } from "./layout-section.types"
-import styles from './layout-section.module.scss';
+import styles from './LayoutSection.module.scss';
+import { LayoutSectionType } from "./LayoutSection.types";
 
 const LayoutSection = (props: LayoutSectionType) => {
   const {children} = props;

@@ -1,0 +1,33 @@
+@use '../../../../scss/globals/' as g;
+
+.page_turn_link {
+  border: 1px solid g.$c-base;
+  border-radius: 50%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100px;
+  height: 100px;
+
+  &__next {
+    transform: rotate(0deg);
+  }
+
+  &__prev {
+    transform: rotate(180deg);
+  }
+
+  & svg {
+    fill: g.$c-base;
+    stroke-width: 0;
+    width: 50px;
+  }
+
+  &:hover {
+    border-color: g.$c-blue;
+    & svg {
+      fill: g.$c-blue;
+    }
+  }
+
+}

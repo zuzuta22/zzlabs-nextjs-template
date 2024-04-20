@@ -1,0 +1,6 @@
+@use '../../../../scss/globals/' as g;
+
+.copyright {
+  padding: g.$paddingPx__XS 0;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+@use '../../../scss/globals/' as g;
+
+.header_inner {
+  @include g.flex-start;
+  padding: g.$paddingPx__XS 0;
+}

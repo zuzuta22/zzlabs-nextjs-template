@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './dynamic-title.module.scss';
-import { DyanmicTitleType } from './dynamic-title.types';
+import styles from './DynamicTitle.module.scss';
+import { DyanmicTitleType } from './DynamicTitle.types';
 
 const DynamicTitle = (props: DyanmicTitleType) => {
   const {tag = 'div', text} = props;

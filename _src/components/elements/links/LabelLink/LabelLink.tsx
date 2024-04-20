@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { LabelLinkType } from "./label-link.type";
-import styles from "./label-link.module.scss";
+import styles from "./LabelLink.module.scss";
+import { LabelLinkType } from "./LabelLink.type";
 
 const LabelLinks = (props: LabelLinkType) => {
   const {text, linkTo, isExternal} = props;

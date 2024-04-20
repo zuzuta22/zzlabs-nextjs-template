@@ -1,0 +1,12 @@
+@use '../../../scss/globals/' as g;
+.header_nav {
+  @include g.flex-start;
+  margin-left: 50px;
+
+  & li {
+    padding-right: g.$paddingPx__XS;
+  }
+  & li:last-child {
+    padding-left: 0;
+  }
+}

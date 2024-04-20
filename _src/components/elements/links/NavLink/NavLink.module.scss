@@ -1,0 +1,7 @@
+@use '../../../../scss/globals/' as g;
+
+.nav_link {
+  &:hover {
+    color: g.$c-blue;
+  }
+}

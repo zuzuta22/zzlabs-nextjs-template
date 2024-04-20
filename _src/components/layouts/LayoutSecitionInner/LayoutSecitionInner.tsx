@@ -1,6 +1,6 @@
-import { LayoutSectionInnerType } from './layout-section-inner.type';
+import { LayoutSectionInnerType } from './LayoutSecitionInner.type';
 
-import styles from './layout-section-inner.module.scss';
+import styles from './LayoutSecitionInner.module.scss';
 
 const LayoutSectionInner = (props: LayoutSectionInnerType) => {
   const { children } = props;
