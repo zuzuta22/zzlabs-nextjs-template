@@ -9,13 +9,13 @@ const PlaygroundEmbed = () => {
   return (
     <>
       <LayoutSection>
-        <DynamicTitle tag={"h2"} text={"Embed"} />
+        <DynamicTitle tag={"h2"} text={"Embed Elements"} />
         <LayoutSectionInner>
           <DynamicTitle tag={"h3"} text={"GoogleMapIframe"} />
           <GoogleMapIframe place={TextContext.irameQuery.place} />
         </LayoutSectionInner>
         <LayoutSectionInner>
-          <DynamicTitle tag={"h3"} text={"YouTube Thumbnail"} />
+          <DynamicTitle tag={"h3"} text={"YouTubeThumbnail"} />
           <YoutubeThumbnail id={"ZjHSWHhbWiU"} type={"middle"} title={"Pay money To my Pain - Rain"}/>
         </LayoutSectionInner>
       </LayoutSection>
