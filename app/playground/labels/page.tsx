@@ -1,5 +1,5 @@
 import ArticleLabel from "@/_src/components/elements/labels/ArticleLabel/ArticleLabel";
-import LabelLinks from "@/_src/components/elements/links/LabelLink/LabelLink";
+import LabelLinks from "@/_src/components/elements/links/LinkLabel/LabelLink";
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
 import FlexBox from "@/_src/components/layouts/FlexBox/FlexBox";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";

@@ -1,4 +1,4 @@
-export type LabelLinkType = {
+export type LinkLabelType = {
   text: string;
   linkTo: string;
   isExternal?: boolean;

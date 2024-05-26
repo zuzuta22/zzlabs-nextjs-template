@@ -1,0 +1,31 @@
+@use '../globals/' as g;
+
+// 
+
+:root {
+  // ベース
+  @each $key, $color in g.$theme-colors {
+    --color-#{$key}: #{$color};
+  }
+
+  // // coolテーマ
+  // &[data-theme='cool'] {
+  //   @each $key, $color in g.$cool-theme-colors {
+  //     --color-#{$key}: #{$color};
+  //   }
+  // }
+
+  // // naturalテーマ
+  // &[data-theme='natural'] {
+  //   @each $key, $color in g.$natural-theme-colors {
+  //     --color-#{$key}: #{$color};
+  //   }
+  // }
+  
+  // // popテーマ
+  // &[data-theme='pop'] {
+  //   @each $key, $color in g.$pop-theme-colors {
+  //     --color-#{$key}: #{$color};
+  //   }
+  // }
+}

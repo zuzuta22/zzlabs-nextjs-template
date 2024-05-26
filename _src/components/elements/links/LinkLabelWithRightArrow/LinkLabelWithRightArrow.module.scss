@@ -1,0 +1,48 @@
+@use '../../../../scss/globals/' as g;
+
+.label-link {
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  color:var(--color-white);
+  // display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  transition: all .2s;
+  width: auto;
+  height: 35px;
+  width: 200px;
+
+  &--black { background-color: var(--color-black); }
+  &--gray { background-color: var(--color-gray); }
+  
+  & a {
+    color: var(--color-white);
+    display: block;
+    padding: 5px 10px;
+    width: 100%;
+  }
+
+  &__arrow {
+    fill: var(--color-white);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.label-link:hover .label-link__arrow {
+  right: 0;
+}

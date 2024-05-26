@@ -1,0 +1,22 @@
+@use '../../../../scss/globals/' as g;
+
+.o-section-title-combo {
+  display: flex;
+    align-items: center;
+    gap: g.$marginPX--SM;
+    transition: .2s ease-in-out;
+
+    @include g.media('md') {
+      gap: g.$marginPX--MD;
+    }
+
+  & h2 {
+    @include g.auto_clamp(18, 540, 24, 900);
+    font-weight: 700;
+  }
+  & span {
+    // color: var(--color-gray);
+    color: lighten(g.$color-gray, 30%);
+    @include g.auto_clamp(40, 540, 64, 900);
+  }
+}

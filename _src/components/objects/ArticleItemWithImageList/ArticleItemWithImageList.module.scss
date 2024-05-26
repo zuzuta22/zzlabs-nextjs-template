@@ -1,0 +1,20 @@
+@use "../../../scss/globals/" as g;
+.o-aticle-items-with-image-list {
+  display: flex;
+  gap: g.$marginPX--SM;
+  flex-direction: column;
+  flex-grow: 0;
+
+  @include g.media('sm') {
+    flex-direction: row;
+  }
+
+  & article {
+    width: 100%;
+
+    @include g.media('sm') {
+      width: calc(100% / 3);
+    }
+  }
+  
+}

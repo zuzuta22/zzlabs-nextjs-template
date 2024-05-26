@@ -1,0 +1,50 @@
+@use '../../../../scss/globals/' as g;
+
+.o-article-with-image {
+
+  &__image {
+    // border: 1px solid var(--color-black);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+
+    & img {
+      border: 1px solid var(--color-black);
+      border-radius: 5px;
+      display: block;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  &__category {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  &__detail {
+    display: flex;
+    gap: g.$marginPX--XS;
+  }
+
+  &__title {
+    margin-top: 10px;
+    & > a {
+      color: var(--color-black);
+    }
+  }
+
+  &__date {
+    color: g.$color-gray;
+    font-size: 1.4rem;
+  }
+
+  &__tag {
+    color: var(--color-gray);
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+}

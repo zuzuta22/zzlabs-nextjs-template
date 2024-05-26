@@ -1,7 +1,8 @@
-import styles from './LayoutSection.module.scss';
-import { LayoutSectionType } from "./LayoutSection.types";
 
-const LayoutSection = (props: LayoutSectionType) => {
+import { SectionLayoutType } from '@/_src/types/SectionLayoutType.types';
+import styles from './LayoutSection.module.scss';
+
+const LayoutSection = (props: SectionLayoutType) => {
   const {children} = props;
   return (
     <section className={styles.l_section}>

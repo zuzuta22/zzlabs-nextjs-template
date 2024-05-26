@@ -1,0 +1,19 @@
+@use '../../../../scss/globals/' as g;
+
+.l-title-element-with-link-label {
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: g.$marginPX--MD;
+
+    @include g.media('md') {
+      gap: g.$marginPX--XL;
+    }
+
+    &__label {
+      display: none;
+      @include g.media('sm') {
+        display: block;
+      }
+    }
+}

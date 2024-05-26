@@ -1,16 +1,19 @@
 @use '../../../../scss/globals/' as g;
 
 .label_link {
-  background-color: g.$c-background-invert;
+  background-color: var(--color-primary);
   border-radius: 30px;
   color: g.$c-white;
-  display: block;
+  display: flex;
+    justify-content: center;
+    align-items: center;
   font-size: 14px;
   padding: 5px 10px;
   text-align: center;
   transition: all .1s;
   width: auto;
-  max-width: 10rem;
+  height: 35px;
+  width: 200px;
   &:hover {
     opacity: .8;
     text-decoration: underline;

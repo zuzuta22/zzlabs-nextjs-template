@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 
-export type LayoutSectionType = {
+export type SectionLayoutType = {
   children: ReactNode;
+  bgColor?: string;
 };
