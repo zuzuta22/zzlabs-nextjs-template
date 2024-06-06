@@ -6,13 +6,13 @@
     justify-content: flex-start;
     gap: g.$marginPX--MD;
 
-    @include g.media('md') {
-      gap: g.$marginPX--XL;
+    @include g.media('lg') {
+      gap: g.$marginPX--LG;
     }
 
     &__label {
       display: none;
-      @include g.media('sm') {
+      @include g.media('md') {
         display: block;
       }
     }

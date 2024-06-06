@@ -1,0 +1,30 @@
+@use '../../../scss/globals/' as g;
+
+.o-article-flash-display-box {
+  border: 2px solid var(--color-black);
+  border-radius: 10px;
+  display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    
+    @include g.media('sm') {
+    flex-direction: row;
+    gap: g.$marginPX--MD;
+    margin: auto;
+    width: 80%;
+  }
+  & time {
+    font-size: 1.4rem;
+    color: var(--color-gray);
+  }
+  & a {
+    color: var(--color-black);
+    font-weight: 700;
+
+    &:hover {
+      color: var(--color-gray)
+    }
+  }
+}

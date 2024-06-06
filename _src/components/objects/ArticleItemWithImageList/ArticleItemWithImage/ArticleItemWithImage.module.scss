@@ -41,10 +41,14 @@
     font-size: 1.4rem;
   }
 
-  &__tag {
-    color: var(--color-gray);
-    display: block;
+  &__tags {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
     font-size: 1.4rem;
-    margin-top: 10px;
+    
+    & a {
+      color: var(--color-gray);
+    }
   }
 }

@@ -1,0 +1,39 @@
+@use '../../../../scss/globals/' as g;
+
+.l-section-content-centered {
+  margin: auto;
+  padding: 35px 15px 35px 15px;
+  width: 95%;
+  
+  @include g.media('md') {
+    padding: 35px 35px 65px 35px;
+    width: 85%;
+  }
+
+  &__inner {
+    display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: g.$marginPX--XS;
+    padding-top: g.$paddingPX--MD;
+    width: 100%;
+    position: relative;
+
+    @include g.media('md') {
+      align-items: center;
+      justify-content: center;
+    }
+
+    &::before {
+      background-color: var(--color-gray);
+      content: '';
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  
+}

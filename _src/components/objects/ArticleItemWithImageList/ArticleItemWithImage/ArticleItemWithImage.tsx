@@ -38,14 +38,14 @@ const ArticleItemWithImage = (props: ArticleItemWithImageType) => {
         {date}
       </time>
       {tags ? (
-  <>
-    {tags.map((tagItem: TagItemType, key: number) => (
-      <Link href={tagItem.tagLinkTo} key={key} className={styles['o-article-with-image__tag']}>
-        {tagItem.tagText}
-      </Link>
-    ))}
-  </>
-) : null}
+        <div className={styles['o-article-with-image__tags']}>
+          {tags.map((tagItem: TagItemType, key: number) => (
+            <Link href={tagItem.tagLinkTo} key={key} className={styles['o-article-with-image__tag']}>
+              #{tagItem.tagText}
+            </Link>
+          ))}
+        </div>
+      ) : null}
 
     </div>
   )

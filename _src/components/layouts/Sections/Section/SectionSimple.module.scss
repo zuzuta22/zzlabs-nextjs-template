@@ -6,10 +6,6 @@
   max-width: 100%;
   transition: all .2s ease;
   padding: 20px 15px 20px 15px;
-
-  &--gray {
-    background-color: var(--color-gray-40);
-  }
   
   @include g.media('sm') {
     padding: 40px 40px 65px 40px;

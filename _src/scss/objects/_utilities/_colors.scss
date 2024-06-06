@@ -1,0 +1,27 @@
+@use '../../globals/' as g;
+
+// font-color
+.u-color__gray--10 {color: lighten(g.$color-gray, 10%);}
+.u-color__gray--20 {color: lighten(g.$color-gray, 20%);}
+.u-color__gray--30 {color: lighten(g.$color-gray, 30%);}
+.u-color__gray--40 {color: lighten(g.$color-gray, 40%);}
+.u-color__gray--45 {color: lighten(g.$color-gray, 45%);}
+
+// background-color
+.u-bg-color__gray--5 {background-color: lighten(g.$color-gray, 45%);}
+.u-bg-color__gray--10 {background-color: lighten(g.$color-gray, 40%);}
+.u-bg-color__gray--20 {background-color: lighten(g.$color-gray, 35%);}
+.u-bg-color__gray--25 {background-color: lighten(g.$color-gray, 30%);}
+.u-bg-color__gray--30 {background-color: lighten(g.$color-gray, 25%);}
+.u-bg-color__gray--35 {background-color: lighten(g.$color-gray, 20%);}
+.u-bg-color__gray--40 {background-color: lighten(g.$color-gray, 10%);}
+.u-bg-color__gray--45 {background-color: lighten(g.$color-gray, 5%);}
+.u-bg-color__gray--50 {background-color: g.$color-gray;}
+.u-bg-color__gray--55 {background-color: darken(g.$color-gray, 5%);}
+.u-bg-color__gray--60 {background-color: darken(g.$color-gray, 10%);}
+.u-bg-color__gray--65 {background-color: darken(g.$color-gray, 15%);}
+.u-bg-color__gray--70 {background-color: darken(g.$color-gray, 20%);}
+.u-bg-color__gray--75 {background-color: darken(g.$color-gray, 25%);}
+.u-bg-color__gray--80 {background-color: darken(g.$color-gray, 30%);}
+.u-bg-color__gray--85 {background-color: darken(g.$color-gray, 35%);}
+.u-bg-color__gray--90 {background-color: darken(g.$color-gray, 40%);}

@@ -1,0 +1,35 @@
+@use '../../../../scss/globals/' as g;
+
+.o-section-title-combo {
+  display: flex;
+    justify-content: flex-start;
+    transition: .2s ease-in-out;
+    margin-bottom: g.$marginPX--XS;
+    flex-direction: column;
+    
+    &--horizon {
+      align-items: flex-start;
+    }
+
+    @include g.media('sm') {
+      &--horizon {
+        align-items: end;
+        gap: g.$marginPX--MD;
+        flex-direction: row;
+      }
+      &--vertical {
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+
+  & h2 {
+    @include g.auto_clamp(18, 540, 24, 1200);
+    font-weight: 700;
+  }
+  & span {
+    color: lighten(g.$color-gray, 30%);
+    line-height: 1;
+    @include g.auto_clamp(40, 540, 64, 1200);
+  }
+}
