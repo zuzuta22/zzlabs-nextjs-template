@@ -1,0 +1,10 @@
+.show_up {
+  transition: 0.8s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+
+  &--on {
+    transform: translateY(0);
+    opacity: 1.0;
+  }
+}

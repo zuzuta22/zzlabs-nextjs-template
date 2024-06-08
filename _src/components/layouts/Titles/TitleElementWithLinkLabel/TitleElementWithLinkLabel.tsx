@@ -1,5 +1,5 @@
 import LinkLabelWithRightArrow from "@/_src/components/elements/links/LinkLabelWithRightArrow/LinkLabelWithRightArrow";
-import SectionTitleCombo from "@/_src/components/objects/titles/SectionTitleCombo/SectionTitleCombo";
+import SectionTitleCombo from "@/_src/components/objects/Titles/SectionTitleCombo/SectionTitleCombo";
 import styles from './TitleElementWithLinkLabel.module.scss';
 import { TitleElementWithLinkLabelType } from "./TitleElementWithLinkLabel.types";
 

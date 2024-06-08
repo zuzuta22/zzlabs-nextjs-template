@@ -1,7 +1,7 @@
 import LinkLabelWithRightArrow from "@/_src/components/elements/links/LinkLabelWithRightArrow/LinkLabelWithRightArrow";
 import SectionContentCentered from "@/_src/components/layouts/Sections/SectionContentCentered/SectionContentCentered";
 import ArticleItemWithImageList from "@/_src/components/objects/ArticleItemWithImageList/ArticleItemWithImageList";
-import SectionTitleCombo from "@/_src/components/objects/titles/SectionTitleCombo/SectionTitleCombo";
+import SectionTitleCombo from "@/_src/components/objects/Titles/SectionTitleCombo/SectionTitleCombo";
 import { HomeHowToLinkContext, HomeHowToPostsCotenxt, HomeHowToTitleContext } from "../_configs/contexts/HomeContexts";
 
 const HomeHowTo = () => {

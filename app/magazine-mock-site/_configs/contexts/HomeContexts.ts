@@ -1,7 +1,7 @@
 import { LinkLabelWithRightArrowType } from "@/_src/components/elements/links/LinkLabelWithRightArrow/LinkLabelWithRightArrow.type";
 import { ArticleFlashDisplayBoxType } from "@/_src/components/objects/ArticleFlashDisplayBox/ArticleFlashDisplayBox.types";
 import { ArticleItemWithImageListType } from "@/_src/components/objects/ArticleItemWithImageList/ArticleItemWithImageList.types";
-import { SectionTitleComboType } from "@/_src/components/objects/titles/SectionTitleCombo/SectionTitleCombo.types";
+import { SectionTitleComboType } from "@/_src/components/objects/Titles/SectionTitleCombo/SectionTitleCombo.types";
 
 export const HomeLatestNewsBackgroundColor = {
   bgColorClass: "u-bg-color__gray--5"
