@@ -9,7 +9,8 @@ export const HomeLatestNewsBackgroundColor = {
 
 export const HomeLatestNewsTitleContext: SectionTitleComboType = {
   title: "新着記事",
-  subText: "NEWS"
+  subText: "NEWS",
+  isShowUp: true,
 }
 
 export const HomeLatestLabelLinkContext: LinkLabelWithRightArrowType = {
@@ -82,7 +83,8 @@ export const HomeLatestPostsCotenxt: ArticleItemWithImageListType = {
 export const HomeInformationTitleContext: SectionTitleComboType = {
   title: "お知らせ",
   subText: "INFORMATION",
-  type: "horizon"
+  type: "horizon",
+  isShowUp: true,
 }
 
 export const HomeInformationLinkContext: LinkLabelWithRightArrowType = {
@@ -102,6 +104,7 @@ export const HomeHowToTitleContext: SectionTitleComboType = {
   title: "使い方",
   subText: "HOW TO USE",
   type: 'vertical',
+  isShowUp: true,
 }
 
 export const HomeHowToPostsCotenxt: ArticleItemWithImageListType = {

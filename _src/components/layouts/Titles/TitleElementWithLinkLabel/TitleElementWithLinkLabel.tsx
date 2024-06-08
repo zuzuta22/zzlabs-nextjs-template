@@ -10,6 +10,7 @@ const TitleElementWithLinkLabel = (props: TitleElementWithLinkLabelType) => {
       <SectionTitleCombo
         title={titleItem.title}
         subText={titleItem.subText}
+        isShowUp={titleItem.isShowUp}
       />
       <div className={styles['l-title-element-with-link-label__label']}>
         <LinkLabelWithRightArrow

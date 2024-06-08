@@ -8,6 +8,9 @@ const MagazineMockSiteHome = () => {
       <HomeLatestNews />
       <HomeInformation />
       <HomeHowTo />
+      <HomeHowTo />
+      <HomeHowTo />
+      <HomeHowTo />
     </>
   )
 }

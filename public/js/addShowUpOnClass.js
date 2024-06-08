@@ -10,11 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
+  // 初回読み込み時にスクロール関数を実行
+  scrollAnimationFunction();
+
   window.addEventListener('scroll', scrollAnimationFunction);
-  window.addEventListener('load', scrollAnimationFunction);
 
   window.addEventListener('beforeunload', () => {
     window.removeEventListener('scroll', scrollAnimationFunction);
-    window.removeEventListener('load', scrollAnimationFunction);
   });
 });

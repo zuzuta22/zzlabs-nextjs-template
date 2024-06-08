@@ -11,6 +11,7 @@ const HomeHowTo = () => {
         title={HomeHowToTitleContext.title}
         subText={HomeHowToTitleContext.subText}
         type={HomeHowToTitleContext.type}
+        isShowUp={HomeHowToTitleContext.isShowUp}
       />
       <ArticleItemWithImageList
         articleItems={HomeHowToPostsCotenxt.articleItems}
