@@ -2,7 +2,7 @@ import GoogleMapIframe from "@/_src/components/elements/embed/GoogleMapIframe/Go
 import YoutubeThumbnail from "@/_src/components/elements/embed/YoutubeThumbnail/YoutubeThumbnail";
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection";
 import { TextContext } from "../texts/context";
 
 const PlaygroundEmbed = () => {

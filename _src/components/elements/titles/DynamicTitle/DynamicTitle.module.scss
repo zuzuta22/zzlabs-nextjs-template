@@ -1,4 +1,4 @@
-@use '../../../../scss/globals/' as g;
+@use '../../../../../_src/scss/globals/' as g;
 
 .h1,.h2,.h3,.h4,.h5,.h6,.div {
   font-weight: 700;
@@ -8,7 +8,7 @@
 }
 .h2 {
   font-size: 40px;
-  margin-bottom: g.$marginVw__SM;
+  margin-bottom: g.$marginVW--SM;
 }
 .h3 {
   font-size: 30px;

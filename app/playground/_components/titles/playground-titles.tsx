@@ -1,6 +1,6 @@
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection";
 
 const PlaygroundTitles = () => {
   return (

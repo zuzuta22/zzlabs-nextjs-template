@@ -3,10 +3,10 @@
 .layout_form {
   border: 1px solid g.$c-base;
   border-radius: 5px;
-  padding: g.$paddingVw__SM;
+  padding: g.$paddingVW--SM;
 
   & > div:not(:last-child) {
-    margin-bottom: g.$marginVw__SM;
+    margin-bottom: g.$marginVW--SM;
   }
 
   & > * {

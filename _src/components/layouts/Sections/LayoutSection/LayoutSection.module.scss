@@ -1,10 +1,9 @@
-@use '../../../scss/globals/' as g;
-
+@use '../../../../../_src/scss/globals/' as g;
 
 .l-section {
-  margin-bottom: g.$marginPx__LG;
+  margin-bottom: g.$marginPX--LG;
   
   @include g.media('md') {
-    margin-bottom: g.$marginPx__XL;
+    margin-bottom: g.$marginPX--XL;
   }
 }

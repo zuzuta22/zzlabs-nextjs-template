@@ -1,10 +1,10 @@
-@use '../../../scss/globals/' as g;
+@use '../../../../_src/scss/globals/' as g;
 
 .l_section_inner {
-  margin-bottom: g.$marginPx__MD;
-  padding: 0 g.$paddingVw__SM g.$paddingVw__SM;
+  margin-bottom: g.$marginPX--MD;
+  padding: 0 g.$paddingVW--SM g.$paddingVW--SM;
 
   @include g.media('md') {
-    margin-bottom: g.$marginPx__LG;
+    margin-bottom: g.$marginPX--LG;
   }
 }

@@ -1,9 +1,9 @@
 import ArticleLabel from "@/_src/components/elements/labels/ArticleLabel/ArticleLabel";
-import LabelLinks from "@/_src/components/elements/links/LinkLabel/LabelLink";
+import LinkLabel from "@/_src/components/elements/links/LinkLabel/LinkLabel";
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
-import FlexBox from "@/_src/components/layouts/FlexBox/FlexBox";
+import FlexBox from "@/_src/components/layouts/Box/FlexBox/FlexBox";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection";
 
 const PlaygroundLabel = () => {
   return (
@@ -19,8 +19,8 @@ const PlaygroundLabel = () => {
       <LayoutSectionInner>
         <DynamicTitle tag={"h3"} text={"LabelLinks"} />
         <FlexBox type={"start"} direction={"row"}>
-          <LabelLinks text={"Inner Link"} linkTo={"#"} />
-          <LabelLinks text={"External Link"} linkTo={"#"} isExternal={true} />
+          <LinkLabel text={"Inner Link"} linkTo={"#"} />
+          <LinkLabel text={"External Link"} linkTo={"#"} isExternal={true} />
         </FlexBox>
       </LayoutSectionInner>
     </LayoutSection>

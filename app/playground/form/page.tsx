@@ -10,7 +10,7 @@ import { InputTextArea } from "@/_src/components/elements/forms/InputTextarea/In
 import { InputZip } from "@/_src/components/elements/forms/InputZip/InputZip"
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle"
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner"
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection"
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection"
 import FormSample from "./formSample/FormSample"
 
 const inputSelectItemsContext = [

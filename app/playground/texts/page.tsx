@@ -1,7 +1,7 @@
 import AddressText from "@/_src/components/elements/texts/AddressText/AddressText";
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection";
 import { TextContext } from "./context";
 
 const PlaygroundTexts = () => {

@@ -2,11 +2,22 @@
 // font-size
 $default_fz: 16;
 
+$theme-colors: (
+  primary: #333,
+  secondary: #b70000,
+  success: #2359A1,
+  warning: #f8c11a,
+  danger: #b70000,
+  background: #e9e9e9,
+  base: #f7f7f7,
+);
+
 // colour
 $c-base: #222;
 $c-blue: #2359A1;
 $c-white: #fff;  // 整理後削除すること。今後は$color-whiteを使う。
 $color-white: #fff;
+$color-black: #000;
 $color-gray: #808080;
 
 $theme-colors: (

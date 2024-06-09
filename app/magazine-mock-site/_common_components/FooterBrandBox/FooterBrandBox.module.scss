@@ -1,0 +1,16 @@
+@use '../../../../_src/scss/globals/' as g;
+.footer-brand-box {
+  background-color: var(--color-black);
+  display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: g.$marginPX--MD g.$marginPX--SM;
+    justify-content: center;
+    padding: 25px 0;
+    
+    @include g.media('sm') {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+  }
+}

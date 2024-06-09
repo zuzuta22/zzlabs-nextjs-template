@@ -1,7 +1,7 @@
 import ImageResp from "@/_src/components/elements/images/ImageResp/ImageResp";
 import DynamicTitle from "@/_src/components/elements/titles/DynamicTitle/DynamicTitle";
 import LayoutSectionInner from "@/_src/components/layouts/LayoutSecitionInner/LayoutSecitionInner";
-import LayoutSection from "@/_src/components/layouts/LayoutSection/LayoutSection";
+import LayoutSection from "@/_src/components/layouts/Sections/LayoutSection/LayoutSection";
 import PlaygroundButtons from "./_components/buttons/playground-buttons/playground-buttons";
 import PlaygroundTitles from "./_components/titles/playground-titles";
 

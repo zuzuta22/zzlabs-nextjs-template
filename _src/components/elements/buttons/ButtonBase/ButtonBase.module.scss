@@ -1,11 +1,11 @@
-@use "../../../../scss/globals/" as g;
+@use '../../../../scss/globals/' as g;
 
 .u_button_base {
   border: 1px solid g.$c-border-base;
   color: g.$c-font-color-accent;
   background-color: g.$c-background-base;
   color: g.$c-font-color-accent;
-  padding: g.$paddingPx__XS g.$paddingPx__MD;
+  padding: g.$paddingPX--XS g.$paddingPX--MD;
   transition: all .5s;
 
   &:hover {

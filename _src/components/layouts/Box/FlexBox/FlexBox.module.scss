@@ -1,4 +1,4 @@
-@use '../../../scss/globals/' as g;
+@use '../../../../scss/globals/' as g;
 
 .l_flexbox {
   @include g.flex;
@@ -7,7 +7,7 @@
     @include g.flex-start;
 
     & > * {
-      margin-right: g.$marginPx__XS;
+      margin-right: g.$marginPX--XS;
     }
     & > *:last-child {
       margin-right: 0;
@@ -17,7 +17,7 @@
   &__column {
     flex-direction: column;
     & > * {
-      margin-bottom: g.$marginPx__XS;
+      margin-bottom: g.$marginPX--XS;
     }
   }
   &__row {
