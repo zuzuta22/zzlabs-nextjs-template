@@ -2,15 +2,17 @@
 .footer-brand-box {
   background-color: var(--color-black);
   display: flex;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    gap: g.$marginPX--MD g.$marginPX--SM;
+    gap: g.$marginPX--SM;
     justify-content: center;
-    padding: 25px 0;
+    padding: 25px;
     
     @include g.media('sm') {
+      padding: 25px 0;
       align-items: center;
       flex-direction: row;
+      gap: g.$marginPX--MD g.$marginPX--SM;
       justify-content: center;
   }
 }

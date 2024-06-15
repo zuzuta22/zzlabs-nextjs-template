@@ -1,3 +1,6 @@
+'use client';
+
+import useShowUpClassOn from '@/_src/hooks/useShowUpOnClass.hooks';
 import styles from './SectionTitleCombo.module.scss';
 import { SectionTitleComboType } from './SectionTitleCombo.types';
 
@@ -9,11 +12,12 @@ const SectionTitleCombo = (props: SectionTitleComboType) => {
   const modifierClass = baseClass + '--' + type;
   const isShowUpClass = isShowUp ? 'show_up' : '';
 
+  useShowUpClassOn('show_up');
+
   return (
     <div className={`${styles[baseClass]} ${styles[modifierClass]} ${isShowUpClass}`}>
       <span>{subText}</span>
       <h2>{title}</h2>
-      <script src="js/addShowUpOnClass.js" async></script>
     </div>  
   )
 }

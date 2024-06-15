@@ -1,6 +1,11 @@
+@use '../../../../../../_src/scss/globals/' as g;
 .footer-brand-box-right {
   background-color: var(--color-black);
   color: #fff;
-  width: 45%;
+  width: 80%;
   min-height: 120px;
+
+  @include g.media('sm') {
+    width: 45%;
+  }
 }

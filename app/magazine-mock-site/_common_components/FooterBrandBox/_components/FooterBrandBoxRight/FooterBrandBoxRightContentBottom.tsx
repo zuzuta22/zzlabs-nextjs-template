@@ -16,8 +16,6 @@ type Props = {
 const FooterBrandBoxRightContentBottom = (props: Props) => {
   const {appleBadgeItem, googleBadgeItem} = props;
 
-  console.log(appleBadgeItem);
-
   return (
     <FlexBox type="start" direction="row">
       <a href={appleBadgeItem.linkTo} target="_blank" rel="noopener noreferer">

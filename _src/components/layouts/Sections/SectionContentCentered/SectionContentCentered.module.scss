@@ -1,12 +1,13 @@
 @use '../../../../scss/globals/' as g;
 
 .l-section-content-centered {
+  background-color: var(--color-white);
   margin: auto;
   padding: 35px 15px 35px 15px;
   width: 95%;
   
   @include g.media('md') {
-    padding: 35px 35px 65px 35px;
+    padding: 50px 35px 65px 35px;
     width: 85%;
   }
 
@@ -23,6 +24,7 @@
     @include g.media('md') {
       align-items: center;
       justify-content: center;
+      padding-top: g.$paddingPX--LG;
     }
 
     &::before {

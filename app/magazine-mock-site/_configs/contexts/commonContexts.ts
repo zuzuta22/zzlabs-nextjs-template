@@ -1,5 +1,6 @@
 import { SiteLogoType } from "@/_src/components/elements/images/SiteLogo/SiteLogo.types";
 import { NavigationWithPipeType } from "@/_src/components/objects/NavigationWithPipe/NavigationWithPipe.types";
+import { FooterType } from "../../_common_components/Footer/Footer.types";
 
 export const LogoContext: SiteLogoType = {
   srcPC: '/magazine-mock-site/svg/sitelogo.svg',
@@ -56,4 +57,14 @@ export const FooterBrandBoxRightContext = {
       alt: "Get our app from Google Store"
     }
   }
+}
+
+
+export const FooterContext: FooterType = {
+  links: [
+    {text: "Team", linkTo: "#"},
+    {text: "Terms", linkTo: "#"},
+    {text: "Privacy Policy", linkTo: "#"}
+  ],
+  copyright: "Copyright ©︎ muyu31 project"
 }

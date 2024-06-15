@@ -1,4 +1,9 @@
+@use '../../../../../../_src/scss/globals/' as g;
 .footer-brand-box-left {
-  width: 30%;
+  width: 70%;
   min-height: 120px;
+
+  @include g.media('sm') {
+    width: 30%;
+  }
 }

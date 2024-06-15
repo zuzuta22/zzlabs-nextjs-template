@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import HeaderWithHamburger from "@/_src/components/layouts/Headers/HeaderWithHamburger/HeaderWithHamburger";
 import '../../_src/scss/styles.scss';
+import Footer from "./_common_components/Footer/Footer";
 import { LogoContext } from "./_configs/contexts/commonContexts";
 import styles from './layout.module.scss';
 
@@ -26,6 +27,7 @@ export default function RootLayout({
       <main className={styles['l-main']}>
         {children}
       </main>
+      <Footer />
     </>
   );
 }

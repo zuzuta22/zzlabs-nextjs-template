@@ -28,7 +28,7 @@
     font-weight: 700;
   }
   & span {
-    color: lighten(g.$color-gray, 30%);
+    color: lighten(g.$color-gray, 20%);
     line-height: 1;
     @include g.auto_clamp(40, 540, 64, 1200);
   }
