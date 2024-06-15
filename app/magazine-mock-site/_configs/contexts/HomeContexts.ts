@@ -1,10 +1,116 @@
 import { LinkLabelWithRightArrowType } from "@/_src/components/elements/links/LinkLabelWithRightArrow/LinkLabelWithRightArrow.type";
 import { ArticleFlashDisplayBoxType } from "@/_src/components/objects/ArticleFlashDisplayBox/ArticleFlashDisplayBox.types";
 import { ArticleItemWithImageListType } from "@/_src/components/objects/ArticleItemWithImageList/ArticleItemWithImageList.types";
+import { ArticleCarouselWithImageItemsType } from "@/_src/components/objects/Cards/ArticleCarouselWithImageItem/ArticleCarouselWithImageItem.types";
 import { SectionTitleComboType } from "@/_src/components/objects/Titles/SectionTitleCombo/SectionTitleCombo.types";
 
 export const HomeLatestNewsBackgroundColor = {
   bgColorClass: "u-bg-color__gray--5"
+}
+
+export const FVCarouselItems: ArticleCarouselWithImageItemsType = {
+  cardItems: [
+    {
+      cardItem: {
+        title: "Carousel Item Read More 5",
+        date: "2024/06/05",
+        linkTo: "#",
+        categoryItem: {
+          categoryName: "Project",
+          categoryLinkTo: "#/?cat=project"
+        },
+        imageItem: {
+          srcPC: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcSP: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcWebpPC: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          srcWebpSP: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          widthPC: 640,
+          heightPC: 360,
+          altText: "Carousel Item Read More 5"
+        }
+      }
+    },
+    {
+      cardItem: {
+        title: "Carousel Item Read More 4",
+        date: "2024/06/04",
+        linkTo: "#",
+        categoryItem: {
+          categoryName: "Blog",
+          categoryLinkTo: "#/?cat=blog"
+        },
+        imageItem: {
+          srcPC: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcSP: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcWebpPC: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          srcWebpSP: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          widthPC: 640,
+          heightPC: 360,
+          altText: "Carousel Item Read More 5"
+        }
+      }
+    },
+    {
+      cardItem: {
+        title: "Carousel Item Read More 3",
+        date: "2024/06/03",
+        linkTo: "#",
+        categoryItem: {
+          categoryName: "News",
+          categoryLinkTo: "#/?cat=news"
+        },
+        imageItem: {
+          srcPC: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcSP: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcWebpPC: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          srcWebpSP: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          widthPC: 640,
+          heightPC: 360,
+          altText: "Carousel Item Read More 5"
+        }
+      }
+    },
+    {
+      cardItem: {
+        title: "Carousel Item Read More 2",
+        date: "2024/06/02",
+        linkTo: "#",
+        categoryItem: {
+          categoryName: "Tech",
+          categoryLinkTo: "#/?cat=tech"
+        },
+        imageItem: {
+          srcPC: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcSP: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcWebpPC: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          srcWebpSP: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          widthPC: 640,
+          heightPC: 360,
+          altText: "Carousel Item Read More 5"
+        }
+      }
+    },
+    {
+      cardItem: {
+        title: "Carousel Item Read More 1",
+        date: "2024/06/01",
+        linkTo: "#",
+        categoryItem: {
+          categoryName: "Info",
+          categoryLinkTo: "#/?cat=info"
+        },
+        imageItem: {
+          srcPC: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcSP: "/magazine-mock-site/images/dummy_fv.jpg",
+          srcWebpPC: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          srcWebpSP: "/magazine-mock-site/images/dummy_fv.jpg.webp",
+          widthPC: 640,
+          heightPC: 360,
+          altText: "Carousel Item Read More 5"
+        }
+      }
+    }
+  ]
 }
 
 export const HomeLatestNewsTitleContext: SectionTitleComboType = {

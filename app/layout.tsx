@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import '../_src/scss/styles.scss';
 
 export const metadata: Metadata = {
-  title: "zzlabs.net - Next.js Template Project",
-  description: "zzlabs.net - Next.js Template Project",
+  title: "yumu31pj - Next.js Template Project",
+  description: "yumu31pj - Next.js Template Project",
   robots: {
     index: false, // set noindex
   },
